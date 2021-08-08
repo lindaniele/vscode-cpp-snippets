@@ -241,6 +241,13 @@
 		],
 		"description": "Code snippet for printing to std::cout, provided the header is set"
 	},
+	"cin": {
+		"prefix": "cin",
+		"body": [
+			"std::cin << ${1:/* variable */};"
+		],
+		"description": "Code snippet for printing to std::cin, provided the header is set"
+	},
 	"#inc": {
 		"prefix": "#inc",
 		"body": [
